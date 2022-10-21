@@ -1,0 +1,274 @@
+/* Global styles*/
+
+* {
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: monospace, serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0;
+    color: #B7B8BC;
+}
+
+.case,
+.teammate {
+    border: 2px solid white;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+
+section .projects,
+section .contacts {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+/* nav bar */
+
+nav {
+    height: 5.5rem;
+    position: fixed;
+    width: 100%;
+    color: #FBFBFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #5b5b5b;
+    background-color: #4a4a4a;
+    z-index: 5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+nav h1 {
+    margin: 0 2rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+nav .links {
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+nav a {
+    margin: 0.75rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: solid 2px #5b5b5b;
+    margin-left: 0.75rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #5b5b5b;
+}
+
+nav .burgermenu {
+    display: none;
+}
+
+.burgermenu img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .links a {
+        display: none;
+    }
+
+    nav .burgermenu {
+        display: inline-block;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav h1 {
+        font-size: 2rem;
+    }
+
+}
+
+
+/* header */
+
+header {
+    background-image: url("../../resources/img/Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 35rem;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    background-color: rgba(74, 74, 74, 0.75);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 50%;
+    text-align: left;
+}
+
+/* projects */
+
+.projects h2 {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.cases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.case {
+    width: 25rem;
+    min-height: 25rem;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+
+#text {
+    background-image: url("../../resources/img/Long-Text.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#product {
+    background-image: url("../../resources/img/Notes-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#branding {
+    background-image: url("../../resources/img/Site.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#course {
+    background-image: url("../../resources/img/Stonks-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Teamates */
+
+.team h2 {
+    max-width: 1000px;
+    margin: 100px auto 0 auto;
+    margin-bottom: 3rem;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.teammates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    width: 25rem;
+    min-height: 25rem;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+
+#one {
+    background-image: url("../../resources/img/Linus.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#two {
+    background-image: url("../../resources/img/Dingle.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#three {
+    background-image: url("../../resources/img/Quandales.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* contacts */
+
+section .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts img {
+    width: 25rem;
+    height: auto;
+    flex-grow: 2;
+    border-radius: 15px;
+}
+
+.contacts .content {
+    width: 25rem;
+    font-size: 1.5rem;
+    padding: 8rem 5rem;
+    flex-grow: 1;
+}
+
+/* footer */
+
+footer {
+    color: white;
+    padding: 1.25rem;
+    text-align: center ;
+    background-color: #4a4a4a;
+    border-top: 2px solid #5b5b5b;
+    font-size: 0.75rem;
+}
