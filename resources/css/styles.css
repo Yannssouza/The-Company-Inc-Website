@@ -103,6 +103,10 @@ nav .burgermenu {
 }
 
 @media only screen and (max-width: 768px) {
+    nav {
+        height: 3.5rem;
+    }
+
     .links a {
         display: none;
     }
@@ -116,7 +120,8 @@ nav .burgermenu {
     }
 
     nav h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        width: 5rem;
     }
 
 }
