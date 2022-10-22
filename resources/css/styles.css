@@ -183,6 +183,7 @@ header h1 {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 15px;
 }
 
 #product {
@@ -190,6 +191,7 @@ header h1 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 15px;
 }
 
 #branding {
@@ -197,6 +199,7 @@ header h1 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 15px;
 }
 
 #course {
@@ -204,6 +207,17 @@ header h1 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    #branding {
+        background-size: contain;
+    }
+
+    #course {
+        background-size: contain;
+    }
 }
 
 /* Teamates */
