@@ -254,14 +254,14 @@ section .contacts {
 }
 
 .contacts img {
-    width: 25rem;
+    width: 12.5rem;
     height: auto;
     flex-grow: 2;
     border-radius: 15px;
 }
 
 .contacts .content {
-    width: 25rem;
+    width: 12.5rem;
     font-size: 1.5rem;
     padding: 3rem 1.5rem;
     flex-grow: 1;
