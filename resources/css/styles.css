@@ -116,7 +116,7 @@ nav .burgermenu {
     }
 
     nav h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
 }
@@ -255,6 +255,7 @@ section .contacts {
 
 .contacts img {
     width: 12.5rem;
+    max-width: 100%;
     height: auto;
     flex-grow: 2;
     border-radius: 15px;
